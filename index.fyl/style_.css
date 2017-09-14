@@ -1,0 +1,301 @@
+body{
+    margin:0;
+    padding: 0;
+    width:100%;
+}
+
+header{
+    background-color:#4b4a45;
+}
+
+.menu-1{
+    list-style: none;
+    display: inline-flex;
+    margin: 0;
+    float: left;
+}
+
+.menu-1 li{
+    padding-bottom:10px;
+    padding-top: 15px;
+}
+
+.menu-1 li:first-child a{
+    color:white;
+    font-size: 20px;
+    background-color: #4b4a45;
+}
+
+.menu-1 li:nth-child(2) a{
+    background-color: #EEDFAC;
+}
+
+.menu-1 a{
+    text-decoration: none;
+    margin:2px;
+    background-color:#f3eddf;
+    padding:16px;
+}
+
+form{
+    float: right;
+    margin: 10px;
+}
+
+.menu-2{
+    display: inline-flex;   
+    list-style: none;
+    background-color:#EEDFAC;
+    padding: 10px;
+    width:100%;
+    margin:0px;
+    margin-left:0px;
+}
+
+.menu-2 a{
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 15px;
+    color:#1D71B8;
+    width: 100%;
+    margin:0;
+}
+
+.menu-2 a:hover{
+    text-decoration: underline;
+}
+
+/* start main content */
+
+.main{
+    display: flex;
+}
+
+/* start main-left */
+.menu-left{
+    width:203px;
+    background-color: #4b4a45;  
+    float:left;
+}
+
+.menu-left input{
+    /* autli */
+    margin: 10px 5px;
+    width:87%;
+    text-align: center;
+}
+
+.menu-tag{
+    overflow-y: auto;
+    height: 230px;
+}
+
+.menu-overflow{
+    overflow-y:auto;
+    height:255px; 
+}
+
+.menu-left .title{
+    color: black;
+    background-color: #e0e0e0;
+    padding: 5px;
+    margin: 0;
+}
+
+.menu-left li{
+    line-height: 20px;
+    color:white;
+}
+
+.menu-left a{
+    text-decoration: none;
+    color: #EEDFAC;
+    font-size: 13px;
+}
+
+.menu-left a:hover{
+    color: white;
+}
+
+.menu-left .w{
+    color:#959593;
+}
+
+/* end main-left */
+
+/* start news */
+.main-news {
+    width: 60%;
+    float: left;
+    padding: 5px 10px 10px 10px;
+    font-size: 14px; 
+}
+
+.main-news .news {
+    padding-bottom: 20px;
+}
+
+.main-news .news h3 {
+    margin: 5px;
+}
+
+.main-news .news h3 a{
+    color:#1D67A4;
+}
+
+.main-news .news h3 a:hover{
+    color:#A54343;
+}
+
+.main-news .news .news-info{
+    background-color: #f3f3f3;
+    padding: 5px;
+    margin: 5px 0;
+}
+.main-news .news .img{
+    float: left;
+    width: 150px;
+}
+
+.main-news .news .img-2{
+    width: 100%;
+}
+/* end news */
+
+/* start news-right */
+.news-right{
+    margin: 0px;
+    padding: 5px;
+    width: 20%;
+    float: left;
+    border-left: solid #c5c2c2 2px;
+}
+
+.news-right .news-right-list{
+    margin: 0;
+    padding: 0 5px;
+    font-size: 13px;
+    list-style: none;
+    line-height: 1.3;
+}
+
+.news-img-2{
+    width: 570px;
+    float: right;
+}
+
+/* end news-right */
+
+/* end main content */
+
+.menu1 a{
+    color:#1D67A4;
+}
+
+.menu1 a:hover{
+    color:#A54343;
+}
+
+.c{
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    padding:5px;
+}
+
+.c span{
+    background-color:#f0f0f0;
+    padding:6px;
+}
+
+.c .menu-span{
+    margin-left:490px;
+}
+
+.s{
+    float: left;
+}
+
+.c img{
+    margin:15px;
+    float:left;
+}
+
+.menu-mion .img{
+    float:left;
+    width:70%;
+    height:200px;
+    margin-top:25px;
+}
+
+/* start footer */
+footer{
+    clear:both;
+    color:#8D8B8B;
+    border-top: solid;
+    border-top-color: #D2D1CD;
+    background-color:#eee;
+    padding: 10px;
+}
+
+footer .footer-menu{
+    float: left;
+    margin-right: 40px;
+    line-height: 20px;
+    margin-left:0px;
+}
+
+footer ul{
+    margin:0;
+    padding:0;
+    font-size: 12px;
+    list-style: none;
+}
+
+footer li:first-child{
+    font-weight: bold;
+    color: black; 
+    margin-left: 5;
+    margin-top:10px;
+}
+
+footer li{
+    margin-left: 10px;
+}
+
+.footer-menu a{
+    color:#847F7F;
+}
+
+.footer-menu a:hover{
+    color:#532424;
+}
+
+footer .p-menu{
+    float:left;
+    width:100%;
+    font-size:12px;
+    margin-top:10px;
+    color:black;
+}
+footer .p-menu2{
+    float: left;
+    font-size: 12px;
+    margin-bottom:10px;
+}
+
+.p-menu2 a{
+    color:#847F7F;
+}
+
+.p-menu2 a:hover{
+    color:#532424;
+}
+/* end footer */
+
+.fright{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}

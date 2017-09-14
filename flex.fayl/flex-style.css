@@ -1,0 +1,203 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+    width: 100%;
+}
+
+/* start header */
+
+header{
+    background-color:#4b4a45;
+    display: flex;
+    flex-direction:column; 
+}
+
+.menu-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: baseline;    
+}
+
+.menu-1 ul{
+    list-style: none;
+    display: inline-flex;
+    margin: 0;
+}
+
+.menu-1 li{
+    padding-bottom:20px;
+    padding-top: 20px;
+}
+
+.menu-1 li:first-child a{
+    color:white;
+    font-size: 20px;
+    background-color: #4b4a45;
+}
+
+.menu-1 li:nth-child(2) a{
+    background-color: #EEDFAC;
+}
+
+.menu-1 ul a{
+    text-decoration: none;
+    margin:2px;
+    background-color:#f3eddf;
+    padding:25px;
+}
+
+.form{
+    margin-right: 10px;
+}
+
+.menu-2{
+    display: inline-flex;   
+    list-style: none;
+    background-color:#EEDFAC;
+    padding: 10px;
+    width:100%;
+    margin:0px;
+    margin-left:0px;
+}
+
+.menu-2 a{
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 15px;
+    color:#1D71B8;
+    width: 100%;
+    margin:0;
+}
+
+.menu-2 a:hover{
+    text-decoration: underline;
+}
+
+/* end header */
+
+/* start left menu */
+
+.obshi-center{
+    display: flex;
+}
+
+.menu-left{
+    background-color: #4b4a45;
+    width: 18%;
+    margin-left: 0px;
+    display: flex;
+    flex-direction:column; 
+}
+
+.menu-left .title{
+    background-color: #DAD7C5;
+    padding:7px;
+    margin:0;
+}
+
+.form2 input{
+    width: 95%;
+    margin-right: 10px;
+    margin-bottom:0px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.menu-left-menu{
+    overflow-y: auto;
+    height: 340px;
+}
+
+.menu-left-menu li{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+    color:white;                                                                                                                                                                                                                                                                                                                                                                                                        
+}
+
+.menu-left-menu a{
+    text-decoration: none;  
+    color:#EEDFAC;
+    font-size:14px;
+}  
+
+.menu-left-menu a:hover{
+    color:#FFFFFF
+}
+/* end left menu */
+
+/* start center menu */
+
+.center-mion{
+    display: flex;
+    flex-direction: column; 
+    width: 57%;
+    margin-left: 25px;
+}
+
+.center-mion a{
+    color: #1D67A4;
+}
+
+.menu-content-1{
+    display: flex;
+    background-color:  #f0f0f0; 
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.menu-content-2{
+    display: flex;
+}
+
+.menu-content-p1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    line-height: 25px;
+    font-size: 14px;
+    width: 65%;
+}
+
+.q{
+    background-color:red;
+    height: 20px;
+    padding: 5px;
+    margin-top:15px;
+}
+
+/* end center menu  */
+
+/* start right menu */
+
+.right-menu{
+    display: flex;
+    flex-direction: column;
+    width: 21%;
+    line-height: 25px;
+    font-size: 14px;
+    margin-left: 20px;
+    background-color: cornsilk;
+    border-left-style: solid;
+    border-left-color:#C9C9C9;
+}
+
+.menu{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+/* end right menu */
+
+/* start footer */
+
+footer{
+    background-color: #4b4a45;
+    padding: 25px;
+    font-size: 25px; 
+    color: wheat;
+    text-align: center;
+    border-top-style: solid;
+}
+
+/* end footer */

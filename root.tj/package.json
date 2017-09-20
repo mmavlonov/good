@@ -1,0 +1,26 @@
+{
+  "name": "root.tj",
+  "version": "1.0.0",
+  "author": "root.tj",
+  "contributors": [
+    "Abdumalik Abdumalikov <a.abdumalikov92@gmail.com>",
+    "Abdurashidov Abdurahmon <>",
+    "Abdurashidov Rahmatjon <>"
+  ],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/rootelastix/root.tj"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^1.5.4",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "latest",
+    "gulp-sass": "^2.3.2",
+    "gulp-shell": "^0.5.2",
+    "gulp-util": "^3.0.7"
+  }
+}

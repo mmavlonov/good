@@ -1,0 +1,385 @@
+/*loader */
+.cssload-inner.cssload-one {
+  border-bottom: 3px solid rgb(0, 140, 186);
+}
+
+.cssload-inner.cssload-two {
+  border-right: 3px solid rgba(0, 140, 186, 0.96);
+}
+
+.cssload-inner.cssload-three {
+  border-top: 3px solid rgb(0, 140, 186);
+}
+
+/* header coloring start*/
+
+.side-menu-button {
+  background: $blue;
+  color: $white;
+  top: 23px;
+}
+
+.shrink .side-menu-button {
+  background: $blue;
+}
+
+.shrink .side-menu-button:hover {
+  background: #1b1b1b;
+}
+
+.side-menu-button.actives,
+.side-menu-button.actives:hover {
+  background: transparent;
+}
+
+.side-menu-button.actives .fa {
+  color: $blue;
+}
+
+.sidenav ul > li.active a {
+  color: $blue;
+}
+
+.navbar .navbar-nav > li a {
+  color: $white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.navbar .navbar-nav > li a:focus {
+  color: $white;
+}
+
+.navbar.shrink .navbar-nav > li a {
+  color: #1b1b1b;
+}
+
+.navbar .navbar-nav > li:hover a {
+  color: $blue;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  color: $blue;
+}
+
+.shrink.navbar-default .navbar-nav > .active > a,
+.shrink.navbar-default .navbar-nav > .active > a:focus,
+.shrink.navbar-default .navbar-nav > .active > a:hover {
+  background: $blue;
+  color: $white;
+}
+
+#what-we-do .what-we-do-features:hover > h3 {
+  color: $blue;
+}
+
+#what-we-do .what-we-do-features h3, h2, h3, .timeline-heading h4, h4 {
+  font-weight: 200;
+}
+
+.timeline-body p {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+#counters {
+  background: url(../img/counters-bg.jpg) no-repeat fixed center;
+}
+
+hr {
+  width: 96px;
+  border: 1px solid #454545;
+  margin: 0 auto 30px;
+  border-bottom: 0;
+  height: 0;
+  box-sizing: content-box;
+}
+
+.price .grey {
+  text-transform: none;
+}
+
+.price .header {
+  font-weight: 200 !important;
+}
+
+/* header coloring end */
+
+/* slider cover coloring start */
+#slider1 h2 {
+  color: $white;
+  font-weight: 100;
+  font-size: 48px;
+}
+
+#slider1 h2.red {
+  color: $white;
+  font-weight: 300;
+}
+
+#slider1 .slider-button {
+  background: $white;
+  color: #1b1b1b;
+
+}
+
+#slider1 .slider-button.red {
+  background: $blue;
+  color: $white;
+
+}
+
+#slider1 .slider-button:before {
+  background: rgba(27, 27, 27, .9);
+
+}
+
+#slider1 .slider-button.red:before {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+#slider1 .slider-button:hover,
+#slider1 .slider-button:focus,
+#slider1 .slider-button:active {
+  color: $white;
+}
+
+.innerpage-banner {
+  background: url(../img/slide-dark.jpg) no-repeat center center / cover;
+  padding-top: 200px;
+  max-height: 440px;
+  color: $white;
+}
+
+.innerpage-banner h2, .innerpage-banner p {
+  color: $white;
+}
+
+/* slider cover coloring end */
+
+/* what we do coloring start */
+
+#what-we-do .what-we-do-features h3 > span {
+  background: $blue;
+}
+
+#what-we-do .what-we-do-features:hover > h3 {
+  color: $blue;
+}
+
+/* what we do coloring end */
+
+/* counters coloring start */
+#counters .outer-circle:hover {
+  border-color: $blue;
+}
+
+#counters .outer-circle:hover .icons {
+  background: $blue;
+}
+
+/* counters coloring end */
+
+/* our team coloring start */
+
+#our-team .hovereffect .overlay {
+  background: $blue;
+}
+
+.progress-bar-custom {
+  background: $blue;
+}
+
+#our-team .our-team-social > li > a > i.fa:hover,
+#our-team .our-team-social > li > a > i.fa:active {
+  background: $blue;
+}
+
+/* our team coloring end */
+
+/* company history coloring start */
+
+.timeline > li:hover .timeline-panel {
+  background: $blue;
+}
+
+.timeline > li:hover .timeline-panel:after {
+  border-top-color: transparent;
+  border-left-color: $blue;
+  border-right-color: $blue;
+  border-bottom-color: transparent;
+}
+
+.timeline > li:hover .timeline-badge > a {
+  color: $blue !important;
+}
+
+/* company history coloring end */
+
+/* portfolio coloring start */
+
+#portfolio #owl-demo .hovereffect .overlay {
+  background: rgba(0, 140, 186, 0.8);
+}
+
+.price.price-selected,
+.price:hover {
+  background: $blue;
+  color: $white;
+}
+
+.price.price-selected::before,
+.price:hover::before {
+  border-bottom: 65px solid $blue;
+}
+
+.price:hover .header,
+.price.price-selected .header {
+  border: 1px solid $blue;
+  color: $blue;
+}
+
+#happy-clients .owl-controls .owl-page.active span {
+  background: $blue;
+}
+
+/* portfolio coloring end */
+
+/* Happy Clients coloring start */
+
+#happy-clients h5 {
+  color: $blue;
+}
+
+/* Happy Clients coloring end */
+
+/* blog coloring start */
+
+#blog-slider .blog-img {
+  border-color: $blue;
+}
+
+#blog-slider .item:hover h3,
+#blog-slider .blog-slider-descp p:nth-child(2) > span,
+#blog-slider .item:hover p:last-child {
+  color: $blue;
+}
+
+#blog-slider .blog-img i,
+#blog-slider .owl-controls .owl-page.active span {
+  background: $blue;
+}
+
+#blog-text h2,
+#blog-text p span {
+  color: $blue;
+}
+
+#blog-text #blog-text-slider .owl-controls .owl-page.active span {
+  background: $blue;
+}
+
+.blog-item .post-comment form input[type="submit"], .contact form input[type="submit"] {
+  background: #1b1d1f;
+}
+
+.blog-item .post-comment form input[type="submit"]:hover, .contact form input[type="submit"]:hover {
+  background: $blue;
+}
+
+/* blog page colring */
+
+#area-main ul.blog-author li a:hover,
+#area-main ul.blog-author li a:focus,
+.morepost-wrap a:hover,
+.morepost-wrap2 a:hover,
+.morepost-wrap a:hover,
+.morepost-wrap2 a:hover,
+.morepost-wrap2 .morepost:hover .fa-long-arrow-left,
+.morepost-wrap .morepost:hover .fa-long-arrow-left,
+.morepost-wrap2 .morepost:hover .fa-long-arrow-right,
+.morepost-wrap .morepost:hover .fa-long-arrow-right,
+ul.category li a:hover,
+ul.category li a:focus {
+  color: $blue;
+}
+
+ul.category li a .date {
+  color: $blue;
+}
+
+#area-main .tag-cloud li a:hover,
+#area-main .tag-cloud li a:focus,
+.blog-reply a.btn-rep:hover,
+.blog-reply a.btn-rep:focus {
+  background: $blue;
+}
+
+#area-main .buttons,
+.social-link li a:hover {
+  background: $blue;
+  border-color: $blue;
+}
+
+.blog-item blockquote {
+  color: $blue;
+}
+
+/* blog coloring end */
+
+/*contact us coloring start */
+
+form .buttons {
+  border-color: $blue;
+  color: $blue;
+}
+
+form .buttons:hover,
+form .buttons:active {
+  border-color: $blue;
+}
+
+form .buttons:before {
+  background: $blue;
+}
+
+.address-details:hover h2,
+.address-details:hover p {
+  color: $blue;
+}
+
+/* map marker color */
+.pin {
+  background: $blue;
+}
+
+.pulse:after {
+  box-shadow: 0 0 1px 2px $blue;
+}
+
+/*contact us coloring end */
+
+/* footer coloring start */
+
+footer {
+  background: $blue;
+  color: $white;
+}
+
+footer ul > li > a:hover {
+  color: $white;
+}
+
+/* footer coloring end */
+
+@media screen and (max-width: 767px) {
+  .side-menu-button {
+    top: 13px;
+  }
+}
